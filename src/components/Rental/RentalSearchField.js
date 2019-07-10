@@ -44,7 +44,7 @@ class RentalSearchField extends Component {
           onKeyPress={e => this.onKeyPress(e)}
         />
         <button onClick={this.handleSearch} className="search__button">
-          <i class="fas fa-search search__icon" />
+          <i className="fas fa-search search__icon" />
         </button>
         {/* <button `onClick={this.handleSearch}` className="btn my-2 my-sm-0 btn-main-search" type="submit">
         //   Search
